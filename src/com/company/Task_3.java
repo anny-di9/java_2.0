@@ -59,7 +59,7 @@ class Task_3 {
         System.err.println("Ошибка! Введите два числа еще раз");
         return;
     }
-
+    calc.close();
 /** Создадим класс DecimalFormat  для форматирования любого числа в Java, будь то целое число или число с плавающей запятой.*/
     DecimalFormat decimalFormat = new DecimalFormat("#.####");
     String secondStr = decimalFormat.format(operation);
@@ -89,6 +89,7 @@ class Task_3 {
       }
       System.out.println("Cамое длинное слово в массиве (элемент): ");
       System.out.println(myArray[numSl]);
+      in.close();
     }
   }
 }
