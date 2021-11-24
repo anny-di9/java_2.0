@@ -16,7 +16,6 @@ public class Task_4_1_fixed {
     for (int j = 0; j < num; j++) {
       System.out.println(j + " элемент = " + mas[j]);
     }
-
     int maxNeg = 0;
     int maxNegNum = 0;
     int minPosit = 11;
